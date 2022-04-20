@@ -17,13 +17,6 @@
     
     echo '<center>
     
-    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=F2JK36SCXKTE2">
-        <input type="submit" name="submit" id="submit" class="button button-primary" value="Dona ora">
-    </a>
-    <a href="'.admin_url('admin.php?page=impostazioni-wpgov').'">
-        <input type="submit" name="submit" id="submit" class="button" value="No, grazie">
-    </a>
-    
     <br><br>
     
     <small>
@@ -32,11 +25,7 @@
         
         <br>
         
-        Per supportare lo sviluppo di questi prodotti e per coprirne i costi si accettano donazioni sia da coloro che ne ufruiscono gratuitamente e sia da chi, invece, lo commercializza per fini professionali.
-        
-        <br>
-        
-        <strong>Solamente così potrà continuare ad essere free.</strong>
+        Progetto fork del MITD
         
     </small>
     

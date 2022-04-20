@@ -1,5 +1,5 @@
 <?php
-	if (!(is_plugin_active( 'amministrazione-aperta/amministrazioneaperta.php' ))) { echo 'Plugin non installato!'; return;}
+	if (!(is_plugin_active( 'italia-amministrazione-aperta/amministrazioneaperta.php' ))) { echo 'Plugin non installato!'; return;}
 	
 	if(isset($_POST['Submit'])) {
 

@@ -101,7 +101,7 @@ endwhile; else: ?>
     </tbody>
 </table>
                 <?php
-                    echo '<a download="' . get_bloginfo('name') . '-opendata' . $anno . '.xls" href="#" onclick="return ExcellentExport.excel(this, \'amministrazione-aperta\', \'Gare\');"><button>EXCEL</button></a>
-            <a download="' . get_bloginfo('name') . '-opendata' . $anno . '.csv" href="#" onclick="return ExcellentExport.csv(this, \'amministrazione-aperta\');"><button>CSV</button></a>';
+                    echo '<a download="' . get_bloginfo('name') . '-opendata' . $anno . '.xls" href="#" onclick="return ExcellentExport.excel(this, \'italia-amministrazione-aperta\', \'Gare\');"><button>EXCEL</button></a>
+            <a download="' . get_bloginfo('name') . '-opendata' . $anno . '.csv" href="#" onclick="return ExcellentExport.csv(this, \'italia-amministrazione-aperta\');"><button>CSV</button></a>';
                 ?><hr>
 <div class="clear"></div>

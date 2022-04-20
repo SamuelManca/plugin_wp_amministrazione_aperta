@@ -5,15 +5,6 @@ echo '<div class="wrap">';
 <div id="welcome-panel" class="welcome-panel">
 
     <div class="welcome-panel-content">
-
-        <div style="float:right;position:relative;margin-right: 20px;">
-            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-            <input type="hidden" name="cmd" value="_s-xclick">
-            <input type="hidden" name="hosted_button_id" value="F2JK36SCXKTE2">
-            <input type="image" src="https://www.paypalobjects.com/it_IT/IT/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - Il metodo rapido, affidabile e innovativo per pagare e farsi pagare.">
-            <img alt="" border="0" src="https://www.paypalobjects.com/it_IT/i/scr/pixel.gif" width="1" height="1">
-            </form>
-        </div>
         <br>
     <img style="float:left;padding: 5px 20px;position:absolute;" src="<?php echo plugin_dir_url(__FILE__) . 'inc/wpa_black.png'; ?>">
 
@@ -125,8 +116,8 @@ echo '<div class="wrap">';
         }
       break;
       case 'aa' :
-        if (is_plugin_active( 'amministrazione-aperta/amministrazioneaperta.php' )) {
-            include(ABSPATH . 'wp-content/plugins/amministrazione-aperta/wpgov/settings.php');
+        if (is_plugin_active( 'italia-amministrazione-aperta/amministrazioneaperta.php' )) {
+            include(ABSPATH . 'wp-content/plugins/italia-mministrazione-aperta/wpgov/settings.php');
         } else {
             echo 'Plugin non installato!';
         }
