@@ -1,10 +1,10 @@
 <?php
 /*
-Plugin Name: Amministrazione Aperta
+Plugin Name: Italia - Amministrazione Aperta
 Plugin URI: http://wpgov.it/soluzioni/amministrazione-aperta/
 Description: Software per la pubblicazione di concessioni (sovvenzioni, contributi, sussidi e vantaggi economici) e incarichi, anche in formato open data, come richiesto dal D.Lgs 33/2013.
 Version: 3.4.1
-Author: Marco Milesi
+Author: Marco Milesi forked by MITD
 Author Email: milesimarco@outlook.com
 Author URI: http://marcomilesi.ml
 License:
