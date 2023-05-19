@@ -117,7 +117,7 @@ echo '<div class="wrap">';
       break;
       case 'aa' :
         if (is_plugin_active( 'italia-amministrazione-aperta/amministrazioneaperta.php' )) {
-            include(ABSPATH . 'wp-content/plugins/italia-mministrazione-aperta/wpgov/settings.php');
+            include(ABSPATH . 'wp-content/plugins/italia-amministrazione-aperta/wpgov/settings.php');
         } else {
             echo 'Plugin non installato!';
         }
